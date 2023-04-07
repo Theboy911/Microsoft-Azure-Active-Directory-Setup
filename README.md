@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/sX33sgm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This lab begins with creating a microsoft Azure account. There is usually a free tier for the first month of use which we'd like to take advantage of if not then it should be relatively cheap to finish the lab and then delete. Once an active Azure account has been created you must then navigate to or search for "create a resource group". ONce there name the resource group whatever you would like but take note of whatever you decide. Be sure to pick a region according to wherever you live. 
 </p>
 <br />
 
@@ -43,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/k7SMw9p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once your resource group has been succesfully created you will then create 2 virtual machines with that same resource group, so essentially this step will be completed twice. The first machine you create should be the domain controller for your active directroy service which is basically a server that will host all of your accounts and information and allow for expedited and closed communication within an enterprise environment. When creating the domain controller be sure to also take note of the virtual network, you will want the virtual networks to be the same for this lab to ensure communication is possible between the two machines. 
 </p>
 <br />
 
