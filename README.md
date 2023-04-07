@@ -43,7 +43,7 @@ This lab begins with creating a microsoft Azure account. There is usually a free
 <img src="https://i.imgur.com/k7SMw9p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once your resource group has been succesfully created you will then create 2 virtual machines with that same resource group, so essentially this step will be completed twice. The first machine you create should be the domain controller for your active directroy service which is basically a server that will host all of your accounts and information and allow for expedited and closed communication within an enterprise environment. When creating the domain controller be sure to also take note of the virtual network, you will want the virtual networks to be the same for this lab to ensure communication is possible between the two machines. Also be sure to pick the applicable operating systems in the drop downs to for the vm you are creating. Domain controller = Windows Server 2022 and Client Machine = Windows 10
+Once your resource group has been succesfully created you will then create 2 virtual machines with that same resource group, so essentially this step will be completed twice. The first machine you create should be the domain controller for your active directroy service which is basically a server that will host all of your accounts and information and allow for expedited and closed communication within an enterprise environment. When creating the domain controller be sure to also take note of the virtual network, you will want the virtual networks to be the same for this lab to ensure communication is possible between the two machines. Also be sure to pick the applicable operating systems in the drop downs to for the vm you are creating. Domain controller = Windows Server 2022 and Client Machine = Windows 10. Be sure to take note of the username and password that you used when creating your virtual machines as you will use this to RDP into your VM's. 
 </p>
 <br />
 
@@ -56,10 +56,10 @@ This step is essentially redundant as we can just next through this page but it 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gctcYeG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once both vms have been succesfully created it is now time to log into both of them using RDP or remote desktop protocol. When logging into your machines be sure to use the public IP address not the private as there is no way for RDP to differentiate between the many private IP addresses on the internet. 
 </p>
 <br />
 
