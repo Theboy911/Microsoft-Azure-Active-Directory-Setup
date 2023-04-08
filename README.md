@@ -51,7 +51,7 @@ Once your resource group has been succesfully created you will then create 2 vir
 <img src="https://i.imgur.com/GdvEA0u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This step is essentially redundant as we can just next through this page but it is important to just make sure that our virtual networks are the same. 
+This step is essentially redundant as we can just next through this page but it is important to just make sure that our virtual networks are the same for connectivity reasons.  
 </p>
 <br />
 
@@ -75,7 +75,7 @@ This screenshot shows a ping to the DC from our client machine to check for conn
 <img src="https://i.imgur.com/aKTFVgF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this screen shot we have gone into the firewall settings and allowed incmoing ping requests. 
+In this screen shot we have gone into the firewall rules and allowed incmoing ping requests. 
 </p>
 <br />
 
@@ -91,7 +91,7 @@ This shows the results of enabling ping in our firewall rules they are now being
 <img src="https://i.imgur.com/SygvKje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step we are logged into our domain controller and have navigated to the server manager portal and have begun installing Active Directory Domain Services on the domain controller. 
 </p>
 <br />
 
