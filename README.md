@@ -99,15 +99,15 @@ In this step we are logged into our domain controller and have navigated to the 
 <img src="https://i.imgur.com/Qy0qWh9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here we have begun the installation of Active Directory domain services in our domain controller. 
+Here we are creating a new forest and picking a domain name. 
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FrS9Kl0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here we are creating a new forest and picking a domain name. 
+Once active directory has been created and domain has been picked the heavy liftinf has mostly been completed but its important to gain familiarty so in this shot we will create a user named whatever youd like.  
 </p>
 <br />
 
