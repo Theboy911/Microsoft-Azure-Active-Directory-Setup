@@ -107,23 +107,23 @@ Here we are creating a new forest and picking a domain name.
 <img src="https://i.imgur.com/FrS9Kl0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once active directory has been created and domain has been picked the heavy liftinf has mostly been completed but its important to gain familiarty so in this shot we will create a user named whatever youd like.  
+Once active directory has been created and domain has been picked the heavy liftinf has mostly been completed but its important to gain familiarty so in this shot we will create a user named whatever youd like but in this case our user will be named caleb Theboy, but you can choose whatever you'd like just remember to keep note of the user name and password. 
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cPCMz0X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step we add the user that we have created to the domain admins group. In an enterprise environment this account would most likely belong to your sysadmin. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rse2fKI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next thing to do is to add our client machine to the domain. To do this we will right click on the windows icon and go to system, from there we will click rename this PC, the link circled in the screenshot then type in the domain you picked earlier and you should have a a running active directory cloud environment complete with an admin user, domain controller/server. 
 </p>
 <br />
 
